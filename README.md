@@ -35,7 +35,7 @@ python3 src/mancala.py
 
 This game shares the same board and number of pebbles as mancala, but the rules are slightly different.
 
-1. When the player chooses a pit, the player picks up all of the pebbles in the chosen pit and drops one pebble into the next pits, excluding the opponent's store. The order of the pits go from pit 0 to pit 12, 0 being the player 1's store and going counter clockwise on the board (pit 12 is the pit before player 1's store).
+1. When the player chooses a pit, the player picks up all of the pebbles in the chosen pit and drops one pebble into the next pits, excluding the opponent's store. The order of the pits go from pit 0 to pit 12, 0 being the player 1's first pit and going counter clockwise on the board (pit 12 is the player 1's store).
 1. When the player runs out of the pebbles in hand, the player can pick up the pebbles from the last pit the last pebble was dropped into.
 1. Step 2 repeats until the last pit the player dropped the pebble into did not contain any pebbles. If the player drops the last pebble into an empty pit, the player's turn ends.
 1. Player 1 and 2 alternate turns until none of the pebbles are available in the pits.
@@ -59,7 +59,20 @@ Pick a pit number [0, 1, 2, 10, 11, 12] to sow pebbles:
 ```
 
 When the player inputs the move, the pebbles in the board will start to move.
+
 ![MyMove](./readmeImgs/myMove.gif)
+
+As soon as the player's turn is over, the AI will make its move. The pit chosen by the AI can be viewed below
+
+```sh
+###########################
+# ~ Let's play Mancala! ~ #
+###########################
+
+-----It is player 0's turn.-----
+Pick a pit number [0, 1, 2, 10, 11, 12] to sow pebbles: 2
+The computer has chosen pit number 9
+```
 
 ![AIMove](./readmeImgs/aiMove.gif)
 
