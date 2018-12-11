@@ -59,7 +59,9 @@ Pick a pit number [0, 1, 2, 10, 11, 12] to sow pebbles:
 ```
 
 When the player inputs the move, the pebbles in the board will start to move.
-![Move](./readmeImgs/move.png)
+![MyMove](./readmeImgs/myMove.gif)
+
+![AIMove](./readmeImgs/aiMove.gif)
 
 ## Styling
 
