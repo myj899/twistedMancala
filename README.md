@@ -2,7 +2,7 @@
 
 This python application allows users to play a game of Twisted Mancala (with different rules from the original game, but the same board) with a Minimax AI. The user can pick the move from the terminal and see the board visually on a separate window.
 
-![Main](./readmeImgs/init.png =300x)
+![Main](./readmeImgs/init.png)
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ This game shares the same board and number of pebbles as mancala, but the rules 
 
 Once the application is launched through the terminal, the player can see the board as shown below.
 
-![Init](./readmeImgs/init.png | width = 200)
+![Init](./readmeImgs/init.png)
 
 The player will control the moves through the terminal. The shell will print,
 
