@@ -49,7 +49,7 @@ Once the application is launched through the terminal, the player can see the bo
 
 The player will control the moves through the terminal. The shell will print,
 
-```sh
+```
 ###########################
 # ~ Let's play Mancala! ~ #
 ###########################
@@ -64,7 +64,7 @@ When the player inputs the move, the pebbles in the board will start to move.
 
 As soon as the player's turn is over, the AI will make its move. The pit chosen by the AI can be viewed below
 
-```sh
+```
 ###########################
 # ~ Let's play Mancala! ~ #
 ###########################
